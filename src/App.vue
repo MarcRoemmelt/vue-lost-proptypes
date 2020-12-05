@@ -19,14 +19,18 @@ export default defineComponent({
       type: Number,
       validator: () => true,
     },
-    breaks_1: {
-      type: Number,
-      validator() { return true },
-    },
-    breaks_2: {
-      type: Number,
-      validator: function () { return true },
-    },
+    // breaks_1: {
+    //   type: Number,
+    //   validator: (a) => true,
+    // },
+    // breaks_2: {
+    //   type: Number,
+    //   validator() { return true },
+    // },
+    // breaks_3: {
+    //   type: Number,
+    //   validator: function (a) { return true },
+    // },
   },
   setup(props) {
     console.log(props);
